@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    position: static;
+    height: 630px;
+    grid-template-areas: 
+    "mama1 mama1 mama1 mama1 mama1 mama1"
+    "mama2 mama3 mama3 mama3 mama4 mama4"
+    "mama2 mama5 mama5 mama5 mama5 mama5";
+}
+
+.mcl1{
+    grid-area: mama1;
+    background-color: aqua;
+}
+
+.mcl2{
+    grid-area: mama2;
+    background-color: blueviolet;
+}
+
+.mcl3{
+    grid-area: mama3;
+    background-color: blanchedalmond;
+}
+
+.mcl4{
+    grid-area: mama4;
+    background-color: brown;
+}
+
+.mcl5{
+    grid-area: mama5;
+    background-color: chartreuse;
+}
+
